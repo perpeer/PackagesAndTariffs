@@ -13,6 +13,13 @@
 		EAD2EE1A2375699200BE1FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD2EE182375699200BE1FB3 /* Main.storyboard */; };
 		EAD2EE1C2375699300BE1FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD2EE1B2375699300BE1FB3 /* Assets.xcassets */; };
 		EAD2EE1F2375699300BE1FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD2EE1D2375699300BE1FB3 /* LaunchScreen.storyboard */; };
+		EAD2EE2D23756AA800BE1FB3 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE2823756AA800BE1FB3 /* UIFont+Extension.swift */; };
+		EAD2EE2F23756AA800BE1FB3 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE2A23756AA800BE1FB3 /* UILabel+Extension.swift */; };
+		EAD2EE3023756AA800BE1FB3 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE2B23756AA800BE1FB3 /* UIView+Layout.swift */; };
+		EAD2EE3123756AA800BE1FB3 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE2C23756AA800BE1FB3 /* UIColor+Extension.swift */; };
+		EAD2EE3423756ADD00BE1FB3 /* BaseListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE3323756ADD00BE1FB3 /* BaseListController.swift */; };
+		EAD2EE3623756B0C00BE1FB3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE3523756B0C00BE1FB3 /* HomeController.swift */; };
+		EAD2EE3923756BC000BE1FB3 /* packageList.json in Resources */ = {isa = PBXBuildFile; fileRef = EAD2EE3823756BC000BE1FB3 /* packageList.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		EAD2EE1B2375699300BE1FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAD2EE1E2375699300BE1FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAD2EE202375699300BE1FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD2EE2823756AA800BE1FB3 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		EAD2EE2A23756AA800BE1FB3 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		EAD2EE2B23756AA800BE1FB3 /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		EAD2EE2C23756AA800BE1FB3 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		EAD2EE3323756ADD00BE1FB3 /* BaseListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseListController.swift; sourceTree = "<group>"; };
+		EAD2EE3523756B0C00BE1FB3 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		EAD2EE3823756BC000BE1FB3 /* packageList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = packageList.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,54 @@
 		EAD2EE112375699200BE1FB3 /* PackagesAndTariffs */ = {
 			isa = PBXGroup;
 			children = (
-				EAD2EE122375699200BE1FB3 /* AppDelegate.swift */,
+				EAD2EE3723756BA700BE1FB3 /* DataFiles */,
+				EAD2EE3223756ACF00BE1FB3 /* Home */,
+				EAD2EE2723756A8400BE1FB3 /* Helpers */,
 				EAD2EE142375699200BE1FB3 /* SceneDelegate.swift */,
-				EAD2EE162375699200BE1FB3 /* ViewController.swift */,
 				EAD2EE182375699200BE1FB3 /* Main.storyboard */,
 				EAD2EE1B2375699300BE1FB3 /* Assets.xcassets */,
-				EAD2EE1D2375699300BE1FB3 /* LaunchScreen.storyboard */,
 				EAD2EE202375699300BE1FB3 /* Info.plist */,
+				EAD2EE2623756A5600BE1FB3 /* Supporting Files */,
 			);
 			path = PackagesAndTariffs;
+			sourceTree = "<group>";
+		};
+		EAD2EE2623756A5600BE1FB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAD2EE122375699200BE1FB3 /* AppDelegate.swift */,
+				EAD2EE162375699200BE1FB3 /* ViewController.swift */,
+				EAD2EE1D2375699300BE1FB3 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAD2EE2723756A8400BE1FB3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EAD2EE2C23756AA800BE1FB3 /* UIColor+Extension.swift */,
+				EAD2EE2823756AA800BE1FB3 /* UIFont+Extension.swift */,
+				EAD2EE2A23756AA800BE1FB3 /* UILabel+Extension.swift */,
+				EAD2EE2B23756AA800BE1FB3 /* UIView+Layout.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EAD2EE3223756ACF00BE1FB3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EAD2EE3323756ADD00BE1FB3 /* BaseListController.swift */,
+				EAD2EE3523756B0C00BE1FB3 /* HomeController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EAD2EE3723756BA700BE1FB3 /* DataFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EAD2EE3823756BC000BE1FB3 /* packageList.json */,
+			);
+			path = DataFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD2EE3923756BC000BE1FB3 /* packageList.json in Resources */,
 				EAD2EE1F2375699300BE1FB3 /* LaunchScreen.storyboard in Resources */,
 				EAD2EE1C2375699300BE1FB3 /* Assets.xcassets in Resources */,
 				EAD2EE1A2375699200BE1FB3 /* Main.storyboard in Resources */,
@@ -140,7 +194,13 @@
 			files = (
 				EAD2EE172375699200BE1FB3 /* ViewController.swift in Sources */,
 				EAD2EE132375699200BE1FB3 /* AppDelegate.swift in Sources */,
+				EAD2EE2F23756AA800BE1FB3 /* UILabel+Extension.swift in Sources */,
+				EAD2EE2D23756AA800BE1FB3 /* UIFont+Extension.swift in Sources */,
+				EAD2EE3023756AA800BE1FB3 /* UIView+Layout.swift in Sources */,
+				EAD2EE3623756B0C00BE1FB3 /* HomeController.swift in Sources */,
 				EAD2EE152375699200BE1FB3 /* SceneDelegate.swift in Sources */,
+				EAD2EE3423756ADD00BE1FB3 /* BaseListController.swift in Sources */,
+				EAD2EE3123756AA800BE1FB3 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
