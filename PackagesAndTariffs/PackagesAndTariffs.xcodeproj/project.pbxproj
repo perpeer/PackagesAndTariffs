@@ -20,6 +20,8 @@
 		EAD2EE3423756ADD00BE1FB3 /* BaseListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE3323756ADD00BE1FB3 /* BaseListController.swift */; };
 		EAD2EE3623756B0C00BE1FB3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE3523756B0C00BE1FB3 /* HomeController.swift */; };
 		EAD2EE3923756BC000BE1FB3 /* packageList.json in Resources */ = {isa = PBXBuildFile; fileRef = EAD2EE3823756BC000BE1FB3 /* packageList.json */; };
+		EAD2EE3C23756DC000BE1FB3 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE3B23756DC000BE1FB3 /* Service.swift */; };
+		EAD2EE3F23756F6400BE1FB3 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE3E23756F6400BE1FB3 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		EAD2EE3323756ADD00BE1FB3 /* BaseListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseListController.swift; sourceTree = "<group>"; };
 		EAD2EE3523756B0C00BE1FB3 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		EAD2EE3823756BC000BE1FB3 /* packageList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = packageList.json; sourceTree = "<group>"; };
+		EAD2EE3B23756DC000BE1FB3 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		EAD2EE3E23756F6400BE1FB3 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				EAD2EE3723756BA700BE1FB3 /* DataFiles */,
+				EAD2EE3D23756F2E00BE1FB3 /* Model */,
+				EAD2EE3A23756DAC00BE1FB3 /* Service */,
 				EAD2EE3223756ACF00BE1FB3 /* Home */,
 				EAD2EE2723756A8400BE1FB3 /* Helpers */,
 				EAD2EE142375699200BE1FB3 /* SceneDelegate.swift */,
@@ -118,6 +124,22 @@
 				EAD2EE3823756BC000BE1FB3 /* packageList.json */,
 			);
 			path = DataFiles;
+			sourceTree = "<group>";
+		};
+		EAD2EE3A23756DAC00BE1FB3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EAD2EE3B23756DC000BE1FB3 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EAD2EE3D23756F2E00BE1FB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EAD2EE3E23756F6400BE1FB3 /* Package.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +221,9 @@
 				EAD2EE3023756AA800BE1FB3 /* UIView+Layout.swift in Sources */,
 				EAD2EE3623756B0C00BE1FB3 /* HomeController.swift in Sources */,
 				EAD2EE152375699200BE1FB3 /* SceneDelegate.swift in Sources */,
+				EAD2EE3C23756DC000BE1FB3 /* Service.swift in Sources */,
 				EAD2EE3423756ADD00BE1FB3 /* BaseListController.swift in Sources */,
+				EAD2EE3F23756F6400BE1FB3 /* Package.swift in Sources */,
 				EAD2EE3123756AA800BE1FB3 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
