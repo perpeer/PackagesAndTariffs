@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EAA6CA552376B67C00EE34B8 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA6CA542376B67C00EE34B8 /* BaseCell.swift */; };
+		EAA6CA572376B8F400EE34B8 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA6CA562376B8F400EE34B8 /* UIStackView+Extension.swift */; };
 		EAD2EE132375699200BE1FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE122375699200BE1FB3 /* AppDelegate.swift */; };
 		EAD2EE152375699200BE1FB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE142375699200BE1FB3 /* SceneDelegate.swift */; };
 		EAD2EE172375699200BE1FB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE162375699200BE1FB3 /* ViewController.swift */; };
@@ -22,9 +24,16 @@
 		EAD2EE3923756BC000BE1FB3 /* packageList.json in Resources */ = {isa = PBXBuildFile; fileRef = EAD2EE3823756BC000BE1FB3 /* packageList.json */; };
 		EAD2EE3C23756DC000BE1FB3 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE3B23756DC000BE1FB3 /* Service.swift */; };
 		EAD2EE3F23756F6400BE1FB3 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE3E23756F6400BE1FB3 /* Package.swift */; };
+		EAD2EE42237576A100BE1FB3 /* PackageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE41237576A100BE1FB3 /* PackageCell.swift */; };
+		EAD2EE442375EAD400BE1FB3 /* CAGradientLayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE432375EAD400BE1FB3 /* CAGradientLayer+Extension.swift */; };
+		EAD2EE462375F89200BE1FB3 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE452375F89100BE1FB3 /* Constant.swift */; };
+		EAD2EE4A2375FEB500BE1FB3 /* VerticalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE492375FEB500BE1FB3 /* VerticalStackView.swift */; };
+		EAD2EE4E2375FF7E00BE1FB3 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE4D2375FF7E00BE1FB3 /* UIImageView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EAA6CA542376B67C00EE34B8 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		EAA6CA562376B8F400EE34B8 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
 		EAD2EE0F2375699200BE1FB3 /* PackagesAndTariffs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PackagesAndTariffs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD2EE122375699200BE1FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAD2EE142375699200BE1FB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +51,11 @@
 		EAD2EE3823756BC000BE1FB3 /* packageList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = packageList.json; sourceTree = "<group>"; };
 		EAD2EE3B23756DC000BE1FB3 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		EAD2EE3E23756F6400BE1FB3 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		EAD2EE41237576A100BE1FB3 /* PackageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageCell.swift; sourceTree = "<group>"; };
+		EAD2EE432375EAD400BE1FB3 /* CAGradientLayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Extension.swift"; sourceTree = "<group>"; };
+		EAD2EE452375F89100BE1FB3 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		EAD2EE492375FEB500BE1FB3 /* VerticalStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStackView.swift; sourceTree = "<group>"; };
+		EAD2EE4D2375FF7E00BE1FB3 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +91,7 @@
 				EAD2EE3723756BA700BE1FB3 /* DataFiles */,
 				EAD2EE3D23756F2E00BE1FB3 /* Model */,
 				EAD2EE3A23756DAC00BE1FB3 /* Service */,
+				EAD2EE402375768000BE1FB3 /* View */,
 				EAD2EE3223756ACF00BE1FB3 /* Home */,
 				EAD2EE2723756A8400BE1FB3 /* Helpers */,
 				EAD2EE142375699200BE1FB3 /* SceneDelegate.swift */,
@@ -104,7 +119,12 @@
 				EAD2EE2C23756AA800BE1FB3 /* UIColor+Extension.swift */,
 				EAD2EE2823756AA800BE1FB3 /* UIFont+Extension.swift */,
 				EAD2EE2A23756AA800BE1FB3 /* UILabel+Extension.swift */,
+				EAD2EE452375F89100BE1FB3 /* Constant.swift */,
 				EAD2EE2B23756AA800BE1FB3 /* UIView+Layout.swift */,
+				EAD2EE432375EAD400BE1FB3 /* CAGradientLayer+Extension.swift */,
+				EAD2EE492375FEB500BE1FB3 /* VerticalStackView.swift */,
+				EAA6CA562376B8F400EE34B8 /* UIStackView+Extension.swift */,
+				EAD2EE4D2375FF7E00BE1FB3 /* UIImageView+Extension.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -140,6 +160,15 @@
 				EAD2EE3E23756F6400BE1FB3 /* Package.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		EAD2EE402375768000BE1FB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EAD2EE41237576A100BE1FB3 /* PackageCell.swift */,
+				EAA6CA542376B67C00EE34B8 /* BaseCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,9 +247,16 @@
 				EAD2EE132375699200BE1FB3 /* AppDelegate.swift in Sources */,
 				EAD2EE2F23756AA800BE1FB3 /* UILabel+Extension.swift in Sources */,
 				EAD2EE2D23756AA800BE1FB3 /* UIFont+Extension.swift in Sources */,
+				EAD2EE4A2375FEB500BE1FB3 /* VerticalStackView.swift in Sources */,
+				EAA6CA572376B8F400EE34B8 /* UIStackView+Extension.swift in Sources */,
+				EAD2EE42237576A100BE1FB3 /* PackageCell.swift in Sources */,
 				EAD2EE3023756AA800BE1FB3 /* UIView+Layout.swift in Sources */,
 				EAD2EE3623756B0C00BE1FB3 /* HomeController.swift in Sources */,
+				EAD2EE462375F89200BE1FB3 /* Constant.swift in Sources */,
 				EAD2EE152375699200BE1FB3 /* SceneDelegate.swift in Sources */,
+				EAD2EE4E2375FF7E00BE1FB3 /* UIImageView+Extension.swift in Sources */,
+				EAA6CA552376B67C00EE34B8 /* BaseCell.swift in Sources */,
+				EAD2EE442375EAD400BE1FB3 /* CAGradientLayer+Extension.swift in Sources */,
 				EAD2EE3C23756DC000BE1FB3 /* Service.swift in Sources */,
 				EAD2EE3423756ADD00BE1FB3 /* BaseListController.swift in Sources */,
 				EAD2EE3F23756F6400BE1FB3 /* Package.swift in Sources */,
