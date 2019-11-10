@@ -3,7 +3,7 @@ This application developed without using a storyboard. The first window starts b
 
 ## Screenshots
 | Main Screen      | Add Favorite      |       Cell         | 
-|:----------------:|:-----------------:|:------------------:|
+|:-----------------|:-----------------:|-------------------:|
 | ![main-screen][] | ![add-favorite][] |  ![cell][]         |
 
 ## Sample of api json
@@ -29,6 +29,6 @@ This application developed without using a storyboard. The first window starts b
   "availableUntil": "1558131150"
 }
 
-[main-screen]: <img src="https://github.com/perpeer/PackagesAndTariffs/blob/master/images/MainScreen.png?raw=true" width="200" />
-[add-favorite]: <img src="https://github.com/perpeer/PackagesAndTariffs/blob/master/images/AddFavorite.png?raw=true" width="200" />
-[cell]: <img src="https://github.com/perpeer/PackagesAndTariffs/blob/master/images/Cell.png?raw=true" width="200" />
+[main-screen]: https://github.com/perpeer/PackagesAndTariffs/blob/master/images/MainScreen.png?raw=true
+[add-favorite]: https://github.com/perpeer/PackagesAndTariffs/blob/master/images/AddFavorite.png?raw=true
+[cell]: https://github.com/perpeer/PackagesAndTariffs/blob/master/images/Cell.png?raw=true
