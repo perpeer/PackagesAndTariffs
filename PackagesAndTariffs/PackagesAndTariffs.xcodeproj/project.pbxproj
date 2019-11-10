@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EAA6CA552376B67C00EE34B8 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA6CA542376B67C00EE34B8 /* BaseCell.swift */; };
 		EAA6CA572376B8F400EE34B8 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA6CA562376B8F400EE34B8 /* UIStackView+Extension.swift */; };
+		EAAA833D23784C16001792F6 /* PackageHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA833C23784C16001792F6 /* PackageHeaderCell.swift */; };
 		EAD2EE132375699200BE1FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE122375699200BE1FB3 /* AppDelegate.swift */; };
 		EAD2EE152375699200BE1FB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE142375699200BE1FB3 /* SceneDelegate.swift */; };
 		EAD2EE172375699200BE1FB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2EE162375699200BE1FB3 /* ViewController.swift */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		EAA6CA542376B67C00EE34B8 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 		EAA6CA562376B8F400EE34B8 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
+		EAAA833C23784C16001792F6 /* PackageHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageHeaderCell.swift; sourceTree = "<group>"; };
 		EAD2EE0F2375699200BE1FB3 /* PackagesAndTariffs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PackagesAndTariffs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD2EE122375699200BE1FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAD2EE142375699200BE1FB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				EAD2EE41237576A100BE1FB3 /* PackageCell.swift */,
+				EAAA833C23784C16001792F6 /* PackageHeaderCell.swift */,
 				EAA6CA542376B67C00EE34B8 /* BaseCell.swift */,
 			);
 			path = View;
@@ -257,6 +260,7 @@
 				EAD2EE4E2375FF7E00BE1FB3 /* UIImageView+Extension.swift in Sources */,
 				EAA6CA552376B67C00EE34B8 /* BaseCell.swift in Sources */,
 				EAD2EE442375EAD400BE1FB3 /* CAGradientLayer+Extension.swift in Sources */,
+				EAAA833D23784C16001792F6 /* PackageHeaderCell.swift in Sources */,
 				EAD2EE3C23756DC000BE1FB3 /* Service.swift in Sources */,
 				EAD2EE3423756ADD00BE1FB3 /* BaseListController.swift in Sources */,
 				EAD2EE3F23756F6400BE1FB3 /* Package.swift in Sources */,

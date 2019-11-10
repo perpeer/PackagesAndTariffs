@@ -15,6 +15,7 @@ class PackageCell: BaseCell {
       if let package = package {
         name.text = package.name
         desc.text = package.desc
+        
         price.text = "\(package.price) ₺ / \(package.subscriptionType.trTypeName())"
         dataCap.text = "\(package.tariff.dataToGigabyte())"
         talkCap.text = package.tariff.talk
@@ -26,13 +27,14 @@ class PackageCell: BaseCell {
           }
         }
         favorite.image = package.isFavorite ? UIImage(named: "star_filled"): UIImage(named: "star_unfilled")
+        useBefore.image = package.didUseBefore ? UIImage(named: "didUseBefore"): UIImage()
       }
     }
   }
   
   // top
   let name = UILabel(text: "name", font: UIFont(name: Fonts.HelveticaNeue_Bold, size: 20)!)
-  let desc = UILabel(text: "desc", font: .systemFont(ofSize: 14), numberOfLines: 0)
+  let desc = UILabel(text: "desc", font: .systemFont(ofSize: 13), numberOfLines: 0)
   
   // middle
   let dataIcon = UIImageView(image: UIImage(named: "data"), contentMode: .scaleAspectFit)
@@ -50,6 +52,7 @@ class PackageCell: BaseCell {
   let separator = UIView()
   let price = UILabel(text: "price", font: UIFont(name: Fonts.HelveticaNeue_Bold, size: 24)!)
   let favorite = UIImageView(image: UIImage(named: "star_unfilled"))
+  let useBefore = UIImageView(image: UIImage(named: "didUseBefore"))
   
   override init(frame: CGRect) {
     super.init(frame: frame)
@@ -95,6 +98,10 @@ class PackageCell: BaseCell {
     favorite.contentMode = .scaleAspectFit
     addSubview(favorite)
     favorite.anchor(top: nil, leading: nil, bottom: bottomAnchor, trailing: trailingAnchor, padding: .init(top: 0, left: 0, bottom: 8, right: 8), size: .init(width: 30, height: 30))
+    
+    useBefore.contentMode = .scaleAspectFit
+    addSubview(useBefore)
+    useBefore.anchor(top: nil, leading: leadingAnchor, bottom: bottomAnchor, trailing: nil, padding: .init(top: 0, left: 8, bottom: 8, right: 0), size: .init(width: 30, height: 30))
   }
   
   required init?(coder: NSCoder) {

@@ -11,7 +11,7 @@ import UIKit
 struct Packages: Decodable {
   let packages: [Package]
   
-  func sortAndSplitOfSectionWithTariff(type: TariffType = .talk) -> [[Package]] {
+  func sortAndSplitOfSectionWithTariff(type: TariffType = .data) -> [[Package]] {
     var favorites = [Package]()
     var yearly = [Package]()
     var monthly = [Package]()
@@ -33,7 +33,7 @@ struct Packages: Decodable {
             sortTariff(type: type, packages: yearly),
             sortTariff(type: type, packages: monthly),
             sortTariff(type: type, packages: weekly)]
-    .filter {(p) -> Bool in !p.isEmpty }
+      .filter {(p) -> Bool in !p.isEmpty }
   }
   
   fileprivate func sortTariff(type: TariffType, packages: [Package]) -> [Package] {
