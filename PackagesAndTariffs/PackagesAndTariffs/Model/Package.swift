@@ -12,7 +12,7 @@ struct Packages: Decodable {
   let packages: [Package]
 }
 
-struct Package: Decodable {
+class Package: Decodable {
   let name: String
   let desc: String
   let subscriptionType: String
@@ -21,6 +21,12 @@ struct Package: Decodable {
   let price: Double
   let tariff: Tariff
   let availableUntil: String
+  var isFavorite: Bool = false
+  
+  enum CodingKeys: CodingKey {
+    case name, desc, subscriptionType, didUseBefore
+    case benefits, price, tariff, availableUntil
+  }
 }
 
 enum Benefit: String, Decodable {
@@ -38,6 +44,7 @@ enum Benefit: String, Decodable {
       case "TV+": self = .TV
       case "Fizy": self = .Fizy
       case "BiP": self = .Bip
+      case "Bip":self = .Bip
       case "lifebox": self = .Lifebox
       case "Platinum": self = .Platinum
       case "Dergilik": self = .Dergilik

@@ -43,6 +43,17 @@ extension HomeController: UICollectionViewDelegateFlowLayout {
     return cell
   }
   
+  override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    guard let packages = packages else { return }
+    if packages[indexPath.item].isFavorite {
+      packages[indexPath.item].isFavorite = false
+    } else {
+      packages[indexPath.item].isFavorite = true
+    }
+
+    collectionView.reloadData()
+  }
+  
   func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
     return 32
   }
@@ -52,6 +63,6 @@ extension HomeController: UICollectionViewDelegateFlowLayout {
   }
   
   func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-    return .init(width: view.frame.width - 64, height: 320)
+    return .init(width: view.frame.width - 64, height: 350)
   }
 }
