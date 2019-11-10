@@ -29,4 +29,4 @@ This application developed without using a storyboard. The first window starts b
   "availableUntil": "1558131150"
 }
 
-[main-screen]: https://github.com/perpeer/PackagesAndTariffs/blob/master/images/MainScreen.png?raw=true
+[main-screen]: https://github.com/perpeer/PackagesAndTariffs/blob/master/images/MainScreen.png=150x324?raw=true
