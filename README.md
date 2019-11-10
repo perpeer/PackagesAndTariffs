@@ -6,7 +6,7 @@ This application developed without using a storyboard. The first window starts b
 |:----------------:|
 | ![main-screen][] |
 
-## Sample of package;
+## Sample of api json
 {
   "name": "Platinum Maksi 6 GB",
   "desc": "Zengin içerikli Platinum Maksi Paketi ile Turkcell Uygulamalarının keyfini sürün!",
@@ -29,4 +29,4 @@ This application developed without using a storyboard. The first window starts b
   "availableUntil": "1558131150"
 }
 
-[main-screen]: https://github.com/perpeer/PackagesAndTariffs/tree/master/images/MainScreen.png?raw=true
+[main-screen]: https://github.com/perpeer/PackagesAndTariffs/blob/master/images/MainScreen.png?raw=true
