@@ -4,7 +4,13 @@ This application developed without using a storyboard. The first window starts b
 ## Screenshots
 | Main Screen      | Add Favorite      |       Cell         | 
 |:----------------:|:-----------------:|:------------------:|
-| ![main-screen][] | ![add-favorite][] |  ![cell][] |
+| ![main-screen][] | ![add-favorite][] |  ![cell][]         |
+
+<p float="left">
+  <img src="https://github.com/perpeer/PackagesAndTariffs/blob/master/images/MainScreen.png?raw=true" width="100" />
+  <img src="https://github.com/perpeer/PackagesAndTariffs/blob/master/images/AddFavorite.png?raw=true" width="100" /> 
+  <img src="https://github.com/perpeer/PackagesAndTariffs/blob/master/images/Cell.png?raw=true" width="100" />
+</p>
 
 ## Sample of api json
 {
