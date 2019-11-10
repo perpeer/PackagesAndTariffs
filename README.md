@@ -2,9 +2,9 @@
 This application developed without using a storyboard. The first window starts by AppDelegate window property. All api request runs with Service singleton pattern.
 
 ## Screenshots
-| Main Screen      | Add Favorite      | 
-|:----------------:|:-----------------:|
-| ![main-screen][] | ![add-favorite][] |
+| Main Screen      | Add Favorite      |       Cell         | 
+|:----------------:|:-----------------:|:------------------:|
+| ![main-screen][] | ![add-favorite][] |  ![cell][] |
 
 ## Sample of api json
 {
@@ -31,3 +31,4 @@ This application developed without using a storyboard. The first window starts b
 
 [main-screen]: https://github.com/perpeer/PackagesAndTariffs/blob/master/images/MainScreen.png?raw=true
 [add-favorite]: https://github.com/perpeer/PackagesAndTariffs/blob/master/images/AddFavorite.png?raw=true
+[cell]: https://github.com/perpeer/PackagesAndTariffs/blob/master/images/Cell.png?raw=true
