@@ -31,6 +31,7 @@ This application developed without using a storyboard. The first window starts b
       },
       "availableUntil": "1558131150"
     }
+  ]
 }
 ```
 
