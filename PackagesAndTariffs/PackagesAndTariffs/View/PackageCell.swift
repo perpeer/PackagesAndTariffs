@@ -15,7 +15,7 @@ class PackageCell: BaseCell {
       if let package = package {
         name.text = package.name
         desc.text = package.desc
-        price.text = "\(package.price) ₺"
+        price.text = "\(package.price) ₺ / \(package.subscriptionType.trTypeName())"
         dataCap.text = "\(package.tariff.dataToGigabyte())"
         talkCap.text = package.tariff.talk
         smsCap.text = package.tariff.sms

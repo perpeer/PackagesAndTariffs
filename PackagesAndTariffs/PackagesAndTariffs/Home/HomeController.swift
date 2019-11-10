@@ -11,7 +11,9 @@ import UIKit
 class HomeController: BaseListController {
   
   private let cellId = "cellId"
-  private var packages: [Package]? {
+  private var packages: Packages?
+  
+  private var packagesArr: [[Package]]? {
     didSet {
       self.collectionView.reloadData()
     }
@@ -28,30 +30,36 @@ class HomeController: BaseListController {
         return
       }
       self.packages = packages
+      self.packagesArr = packages?.sortAndSplitOfSectionWithTariff()
     }
   }
 }
 
 extension HomeController: UICollectionViewDelegateFlowLayout {
+  override func numberOfSections(in collectionView: UICollectionView) -> Int {
+    return packagesArr?.count ?? 0
+  }
+  
   override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-    return packages?.count ?? 0
+    return packagesArr?[section].count ?? 0
   }
   
   override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
     let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! PackageCell
-    cell.package = packages?[indexPath.item]
+    cell.package = packagesArr?[indexPath.section][indexPath.item]
     return cell
   }
   
   override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-    guard let packages = packages else { return }
-    if packages[indexPath.item].isFavorite {
-      packages[indexPath.item].isFavorite = false
+    guard let packagesArr = packagesArr else { return }
+    if packagesArr[indexPath.section][indexPath.item].isFavorite {
+      packagesArr[indexPath.section][indexPath.item].isFavorite = false
     } else {
-      packages[indexPath.item].isFavorite = true
+      packagesArr[indexPath.section][indexPath.item].isFavorite = true
     }
-
-    collectionView.reloadData()
+    if let packages = packages {
+      self.packagesArr = packages.sortAndSplitOfSectionWithTariff()
+    }
   }
   
   func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
