@@ -1,0 +1,384 @@
+{
+  "packages": [
+    {
+      "name": "Platinum Maksi 6 GB",
+      "desc": "Zengin içerikli Platinum Maksi Paketi ile Turkcell Uygulamalarının keyfini sürün!",
+      "subscriptionType": "monthly",
+      "didUseBefore": true,
+      "benefits": [
+        "TV+",
+        "Fizy",
+        "BiP",
+        "lifebox",
+        "Platinum",
+        "Dergilik"
+      ],
+      "price": 109.90,
+      "tariff": {
+        "data": "6144",
+        "talk": "2000",
+        "sms": "100"
+      },
+      "availableUntil": "1558131150"
+    },
+    {
+      "name": "Platinum Maksi 8 GB",
+      "desc": "Zengin içerikli Platinum Maksi Paketi ile Turkcell Uygulamalarının keyfini sürün!",
+      "subscriptionType": "monthly",
+      "didUseBefore": false,
+      "benefits": [
+        "TV+",
+        "Fizy",
+        "BiP",
+        "lifebox",
+        "Platinum",
+        "Dergilik"
+      ],
+      "price": 129.90,
+      "tariff": {
+        "data": "8192",
+        "talk": "2000",
+        "sms": "100"
+      },
+      "availableUntil": "1555060350"
+    },
+    {
+      "name": "Platinum Maksi 12 GB",
+      "desc": "Zengin içerikli Platinum Maksi Paketi ile Turkcell Uygulamalarının keyfini sürün!",
+      "subscriptionType": "yearly",
+      "didUseBefore": false,
+      "benefits": [
+        "TV+",
+        "Fizy",
+        "BiP",
+        "lifebox",
+        "Platinum",
+        "Dergilik"
+      ],
+      "price": 109.90,
+      "tariff": {
+        "data": "12288",
+        "talk": "2000",
+        "sms": "100"
+      },
+      "availableUntil": "1555060350"
+    },
+    {
+      "name": "Akıllı 2 GB Paket",
+      "desc": "Hemen şimdi size en uygun Akıllı Paketlerinden birini seçin, avantajlı tekliflerden faydalanın. Üstelik paketiniz limitinde durur, aşım yapmaz.",
+      "subscriptionType": "monthly",
+      "didUseBefore": true,
+      "benefits": [
+        "lifebox",
+        "BiP",
+        "Dergilik"
+      ],
+      "price": 54.69,
+      "tariff": {
+        "data": "2048",
+        "talk": "500",
+        "sms": "1000"
+      },
+      "availableUntil": "1553253117"
+    },
+    {
+      "name": "Akıllı 3 GB Paket",
+      "desc": "Hemen şimdi size en uygun Akıllı Paketlerinden birini seçin, avantajlı tekliflerden faydalanın. Üstelik paketiniz limitinde durur, aşım yapmaz.",
+      "subscriptionType": "monthly",
+      "didUseBefore": false,
+      "benefits": [
+        "lifebox",
+        "BiP",
+        "Dergilik"
+      ],
+      "price": 59.69,
+      "tariff": {
+        "data": "3072",
+        "talk": "750",
+        "sms": "1000"
+      },
+      "availableUntil": "1572261150"
+    },
+    {
+      "name": "Akıllı 5 GB Paket",
+      "desc": "Hemen şimdi size en uygun Akıllı Paketlerinden birini seçin, avantajlı tekliflerden faydalanın. Üstelik paketiniz limitinde durur, aşım yapmaz.",
+      "subscriptionType": "monthly",
+      "didUseBefore": true,
+      "benefits": [
+        "lifebox",
+        "BiP",
+        "Dergilik",
+        "Fizy"
+      ],
+      "price": 79.90,
+      "tariff": {
+        "data": "5120",
+        "talk": "750",
+        "sms": "1000"
+      },
+      "availableUntil": "1577790750"
+    },
+    {
+      "name": "Uçuran 3 GB Paketi",
+      "desc": "Hazır Kart Üçlü Paketler Kampanyası kapsamında sunulan Uçuran 3 GB Paketi ile sadece 40 TL'ye 3 GB internetin keyfini sürebilir, sevdiklerinizle tam 500 dakika konuşup, 1000 SMS atabilirsiniz. BiP ile ücretsiz mesajlaşabilir, BiP’te geçerli 1 GB internet ile sevdiklerinizi ister sesli, ister görüntülü ücretsiz olarak arayabilirsiniz.",
+      "subscriptionType": "yearly",
+      "didUseBefore": false,
+      "benefits": [
+        "BiP",
+        "Dergilik"
+      ],
+      "price": 45,
+      "tariff": {
+        "data": "3072",
+        "talk": "500",
+        "sms": "1000"
+      },
+      "availableUntil": "1580433810"
+    },
+    {
+      "name": "Uçuran 4 GB Paketi",
+      "desc": "Hazır Kart Üçlü Paketler Kampanyası kapsamında sunulan Uçuran 4 GB Paketi ile sadece 45 TL'ye 4 GB internetin keyfini sürebilir, sevdiklerinizle tam 500 dakika konuşup, 1000 SMS atabilirsiniz. BiP ile ücretsiz mesajlaşabilir, BiP’te geçerli 1 GB internet ile sevdiklerinizi ister sesli ister görüntülü ücretsiz olarak arayabilirsiniz.",
+      "subscriptionType": "yearly",
+      "didUseBefore": true,
+      "benefits": [
+        "BiP",
+        "Dergilik"
+      ],
+      "price": 45,
+      "tariff": {
+        "data": "4096",
+        "talk": "500",
+        "sms": "1000"
+      },
+      "availableUntil": "1580433810"
+    },
+    {
+      "name": "İnterneti Bol 500 dk 4 GB 1000 SMS",
+      "desc": "4 GB internetle artık videolar sizden korksun! Bol bol turbo internetin keyfini çıkarın, yanında da 500 dakika ve 1000 SMS'inizi kullanın. Hepsi hem cazip fiyat ile hem de Turkcell kalitesiyle!",
+      "subscriptionType": "monthly",
+      "didUseBefore": false,
+      "benefits": null,
+      "price": 78,
+      "tariff": {
+        "data": "4096",
+        "talk": "500",
+        "sms": "1000"
+      },
+      "availableUntil": "1577790750"
+    },
+    {
+      "name": "Hepsi Eko Paket",
+      "desc": "Hepsi Eko Paketi ile sevdiklerinizle yurt içi her yöne tam 500 dakika doya doya konuşma, 500 SMS ile mesajlaşma ve 1 GB internet ile internet keyfi bir arada!",
+      "subscriptionType": "monthly",
+      "didUseBefore": true,
+      "benefits": null,
+      "price": 70,
+      "tariff": {
+        "data": "1024",
+        "talk": "500",
+        "sms": "500"
+      },
+      "availableUntil": "1573589550"
+    },
+    {
+      "name": "GNÇ Maksi Paketi 4 GB",
+      "desc": "Zengin içerikli GNÇ Maksi Paketi ile Turkcell Uygulamalarının keyfini sürün!",
+      "subscriptionType": "monthly",
+      "didUseBefore": false,
+      "benefits": [
+        "TV+",
+        "Fizy",
+        "BiP",
+        "lifebox",
+        "Platinum",
+        "Dergilik"
+      ],
+      "price": 49.90,
+      "tariff": {
+        "data": "4096",
+        "talk": "1000",
+        "sms": "100"
+      },
+      "availableUntil": "1568042610"
+    },
+    {
+      "name": "GNÇ Maksi Paketi 8 GB",
+      "desc": "Zengin içerikli GNÇ Maksi Paketi ile Turkcell Uygulamalarının keyfini sürün!",
+      "subscriptionType": "monthly",
+      "didUseBefore": false,
+      "benefits": [
+        "TV+",
+        "Fizy",
+        "BiP",
+        "lifebox",
+        "Platinum",
+        "Dergilik"
+      ],
+      "price": 59.90,
+      "tariff": {
+        "data": "8192",
+        "talk": "1000",
+        "sms": "100"
+      },
+      "availableUntil": "1568042610"
+    },
+    {
+      "name": "GNÇ Maksi Paketi 12 GB",
+      "desc": "Zengin içerikli GNÇ Maksi Paketi ile Turkcell Uygulamalarının keyfini sürün!",
+      "subscriptionType": "yearly",
+      "didUseBefore": false,
+      "benefits": [
+        "TV+",
+        "Fizy",
+        "BiP",
+        "lifebox",
+        "Platinum",
+        "Dergilik"
+      ],
+      "price": 69.90,
+      "tariff": {
+        "data": "12288",
+        "talk": "1000",
+        "sms": "100"
+      },
+      "availableUntil": "1575905010"
+    },
+    {
+      "name": "GNÇ Maksi Paketi 20 GB",
+      "desc": "Zengin içerikli GNÇ Maksi Paketi ile Turkcell Uygulamalarının keyfini sürün!",
+      "subscriptionType": "yearly",
+      "didUseBefore": false,
+      "benefits": [
+        "TV+",
+        "Fizy",
+        "BiP",
+        "lifebox",
+        "Platinum",
+        "Dergilik"
+      ],
+      "price": 89.90,
+      "tariff": {
+        "data": "20480",
+        "talk": "1000",
+        "sms": "100"
+      },
+      "availableUntil": "1575905010"
+    },
+    {
+      "name": "Sarı Paket",
+      "desc": "Turkcell'den Sarı Kırmızı Destek Paketi'ni al, hem Galatasaray kazansın hem sen kazan. Turkcell uygulamalarından hediye maç biletine, sana özel birçok ayrıcalıktan faydalan.",
+      "subscriptionType": "monthly",
+      "didUseBefore": false,
+      "benefits": [
+        "Fizy",
+        "Bip"
+      ],
+      "price": 5,
+      "tariff": {
+        "data": "0",
+        "talk": "100",
+        "sms": "0"
+      },
+      "availableUntil": "1568892210"
+    },
+    {
+      "name": "Kırmızı Paket",
+      "desc": "Turkcell'den Sarı Kırmızı Destek Paketi'ni al, hem Galatasaray kazansın hem sen kazan. Turkcell uygulamalarından hediye maç biletine, sana özel birçok ayrıcalıktan faydalan.",
+      "subscriptionType": "monthly",
+      "didUseBefore": false,
+      "benefits": [
+        "Fizy",
+        "Bip"
+      ],
+      "price": 7,
+      "tariff": {
+        "data": "0",
+        "talk": "250",
+        "sms": "0"
+      },
+      "availableUntil": "1568892210"
+    },
+    {
+      "name": "Şampiyonluk Paket",
+      "desc": "Turkcell'den Sarı Kırmızı Destek Paketi'ni al, hem Galatasaray kazansın hem sen kazan. Turkcell uygulamalarından hediye maç biletine, sana özel birçok ayrıcalıktan faydalan.",
+      "subscriptionType": "monthly",
+      "didUseBefore": false,
+      "benefits": [
+        "Fizy",
+        "Bip"
+      ],
+      "price": 9,
+      "tariff": {
+        "data": "0",
+        "talk": "500",
+        "sms": "0"
+      },
+      "availableUntil": "1568892210"
+    },
+    {
+      "name": "Akıllı Fatura Ek İnternet Paketi",
+      "desc": "Akıllı Fatura Kampanyası ile paket bitiminden sonra Akıllı Fatura Ek Paketi alarak kullanıma devam edebilirsiniz.",
+      "subscriptionType": "weekly",
+      "didUseBefore": false,
+      "benefits": [
+        "Fizy",
+        "Bip"
+      ],
+      "price": 19,
+      "tariff": {
+        "data": "1024",
+        "talk": "0",
+        "sms": "0"
+      },
+      "availableUntil": "1563758610"
+    },
+    {
+      "name": "Akıllı Fatura 250 Dakika Paketi",
+      "desc": "Akıllı Fatura Kampanyası ile paket bitiminden sonra Akıllı Fatura Ek Paketi alarak kullanıma devam edebilirsiniz.",
+      "subscriptionType": "weekly",
+      "didUseBefore": false,
+      "benefits": [
+        "Fizy",
+        "Bip"
+      ],
+      "price": 19,
+      "tariff": {
+        "data": "0",
+        "talk": "250",
+        "sms": "0"
+      },
+      "availableUntil": "1563758610"
+    },
+    {
+      "name": "Akıllı Fatura 500 Dakika Paketi",
+      "desc": "Akıllı Fatura Kampanyası ile paket bitiminden sonra Akıllı Fatura Ek Paketi alarak kullanıma devam edebilirsiniz.",
+      "subscriptionType": "weekly",
+      "didUseBefore": false,
+      "benefits": [
+        "Fizy",
+        "Bip"
+      ],
+      "price": 19,
+      "tariff": {
+        "data": "0",
+        "talk": "500",
+        "sms": "0"
+      },
+      "availableUntil": "1563758610"
+    },
+    {
+      "name": "Akıllı Fatura Ek SMS Paketi",
+      "desc": "Akıllı Fatura Kampanyası ile paket bitiminden sonra Akıllı Fatura Ek Paketi alarak kullanıma devam edebilirsiniz.",
+      "subscriptionType": "weekly",
+      "didUseBefore": true,
+      "benefits": null,
+      "price": 19,
+      "tariff": {
+        "data": "0",
+        "talk": "0",
+        "sms": "250"
+      },
+      "availableUntil": "1563758610"
+    }
+  ]
+}
