@@ -17,7 +17,7 @@ struct Packages: Decodable {
     var monthly = [Package]()
     var weekly = [Package]()
     
-    for package in self.packages {
+    packages.forEach { (package) in
       if package.isFavorite {
         favorites.append(package)
       } else {
@@ -29,6 +29,7 @@ struct Packages: Decodable {
         }
       }
     }
+
     return [sortTariff(type: type, packages: favorites),
             sortTariff(type: type, packages: yearly),
             sortTariff(type: type, packages: monthly),

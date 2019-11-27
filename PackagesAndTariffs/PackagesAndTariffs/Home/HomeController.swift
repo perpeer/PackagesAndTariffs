@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class HomeController: BaseListController {
   
@@ -35,6 +36,7 @@ class HomeController: BaseListController {
       self.packages = packages
       self.packagesArr = packages?.sortAndSplitOfSectionWithTariff()
     }
+    
   }
   
   func filterWithTariff(type: TariffType) {
