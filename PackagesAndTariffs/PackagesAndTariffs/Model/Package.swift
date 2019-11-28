@@ -55,7 +55,9 @@ class Package: Decodable {
   let price: Double
   let tariff: Tariff
   let availableUntil: String
-  var isFavorite: Bool = false
+  var isFavorite: Bool {
+    return CoreDataManager.shared.isFavorite(value: self.name)
+  }
   
   enum CodingKeys: CodingKey {
     case name, desc, subscriptionType, didUseBefore

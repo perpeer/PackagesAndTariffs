@@ -64,9 +64,11 @@ extension HomeController: UICollectionViewDelegateFlowLayout {
   override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     guard let packagesArr = packagesArr else { return }
     if packagesArr[indexPath.section][indexPath.item].isFavorite {
-      packagesArr[indexPath.section][indexPath.item].isFavorite = false
+      let package = packagesArr[indexPath.section][indexPath.item]
+      CoreDataManager.shared.removeFavorite(value: package.name)
     } else {
-      packagesArr[indexPath.section][indexPath.item].isFavorite = true
+      let package = packagesArr[indexPath.section][indexPath.item]
+      CoreDataManager.shared.addFavorite(value: package.name)
     }
     filterWithTariff(type: tariffType)
   }

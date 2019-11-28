@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA2C1173238FE0D2003CB062 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2C1172238FE0D2003CB062 /* CoreDataManager.swift */; };
+		EA2C1176238FE0FC003CB062 /* PackagesAndTariffsDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA2C1174238FE0FC003CB062 /* PackagesAndTariffsDataModel.xcdatamodeld */; };
 		EAA6CA552376B67C00EE34B8 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA6CA542376B67C00EE34B8 /* BaseCell.swift */; };
 		EAA6CA572376B8F400EE34B8 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA6CA562376B8F400EE34B8 /* UIStackView+Extension.swift */; };
 		EAAA833D23784C16001792F6 /* PackageHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA833C23784C16001792F6 /* PackageHeaderCell.swift */; };
@@ -33,6 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA2C1172238FE0D2003CB062 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		EA2C1175238FE0FC003CB062 /* PackagesAndTariffsDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PackagesAndTariffsDataModel.xcdatamodel; sourceTree = "<group>"; };
 		EAA6CA542376B67C00EE34B8 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 		EAA6CA562376B8F400EE34B8 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
 		EAAA833C23784C16001792F6 /* PackageHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageHeaderCell.swift; sourceTree = "<group>"; };
@@ -71,6 +75,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA2C1171238FE0B2003CB062 /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				EA2C1172238FE0D2003CB062 /* CoreDataManager.swift */,
+				EA2C1174238FE0FC003CB062 /* PackagesAndTariffsDataModel.xcdatamodeld */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
 		EAD2EE062375699100BE1FB3 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +103,7 @@
 		EAD2EE112375699200BE1FB3 /* PackagesAndTariffs */ = {
 			isa = PBXGroup;
 			children = (
+				EA2C1171238FE0B2003CB062 /* CoreDataManager */,
 				EAD2EE3723756BA700BE1FB3 /* DataFiles */,
 				EAD2EE3D23756F2E00BE1FB3 /* Model */,
 				EAD2EE3A23756DAC00BE1FB3 /* Service */,
@@ -256,6 +270,7 @@
 				EAD2EE3023756AA800BE1FB3 /* UIView+Layout.swift in Sources */,
 				EAD2EE3623756B0C00BE1FB3 /* HomeController.swift in Sources */,
 				EAD2EE462375F89200BE1FB3 /* Constant.swift in Sources */,
+				EA2C1176238FE0FC003CB062 /* PackagesAndTariffsDataModel.xcdatamodeld in Sources */,
 				EAD2EE152375699200BE1FB3 /* SceneDelegate.swift in Sources */,
 				EAD2EE4E2375FF7E00BE1FB3 /* UIImageView+Extension.swift in Sources */,
 				EAA6CA552376B67C00EE34B8 /* BaseCell.swift in Sources */,
@@ -264,6 +279,7 @@
 				EAD2EE3C23756DC000BE1FB3 /* Service.swift in Sources */,
 				EAD2EE3423756ADD00BE1FB3 /* BaseListController.swift in Sources */,
 				EAD2EE3F23756F6400BE1FB3 /* Package.swift in Sources */,
+				EA2C1173238FE0D2003CB062 /* CoreDataManager.swift in Sources */,
 				EAD2EE3123756AA800BE1FB3 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +478,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA2C1174238FE0FC003CB062 /* PackagesAndTariffsDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA2C1175238FE0FC003CB062 /* PackagesAndTariffsDataModel.xcdatamodel */,
+			);
+			currentVersion = EA2C1175238FE0FC003CB062 /* PackagesAndTariffsDataModel.xcdatamodel */;
+			path = PackagesAndTariffsDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EAD2EE072375699100BE1FB3 /* Project object */;
 }
